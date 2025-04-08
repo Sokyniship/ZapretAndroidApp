@@ -1,5 +1,5 @@
-name: Android Build
-
+- name: Grant execute permission for gradlew
+  run: chmod +x ./gradlew
 on:
   push:
     branches:
